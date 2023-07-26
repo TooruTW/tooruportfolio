@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(178, 177, 177);
+}
+
+.title{
+    font-size: 10rem;
+}
+.subtitle{
+    color: black;
+    font-size: 3rem;
+}
+#Start{
+    font-size: 2rem;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink{
+    0%{
+        color: rgb(178, 177, 177);
+    }
+    100%{
+        color: black;
+    }
+}
+.fristpage{
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
+section{
+    height: 100vh;
+}
+#selfphoto{
+    border-radius: 50%;
+    height: 200px;
+}
+
+.word{
+    font-family: 'Handjet', cursive;
+}
+.aisatsu{
+    letter-spacing: 5px;
+    font-size: rem;
+}
+
+.short-intro{
+    font-size: 1.5rem;
+}
